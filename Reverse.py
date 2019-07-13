@@ -1,4 +1,4 @@
 a=int(input())
 b=int(input().split())
 c=b.sort(reverse=True)
-print(c)
+print("".join(map(str,c))
