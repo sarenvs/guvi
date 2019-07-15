@@ -1,4 +1,12 @@
 a=int(input())
-b=int(input().split())
-c=b.sort(reverse=True)
-print("".join(map(str,c))
+b=list(map(int,input().split(None,a)[:a]))
+
+
+c=b.sort(key=None,reverse=False)
+if b.count(0)!=len(b):
+    
+     print("".join(map(str,b)))
+else:
+    print(0)
+    
+
