@@ -1,5 +1,5 @@
-a=int(input())
-c=list(map(int,input().split(None,a)[:a]))
+
+c=list(map(int,input().split()))
 c.sort(key=None,reverse=True)
 
 for i in c:
