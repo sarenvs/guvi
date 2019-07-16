@@ -8,4 +8,4 @@ for i in range(len(b)):
 if len(a)==0:
     print(-1)
 else:
-    print(" ".join(map(str,a)))ss
+    print(" ".join(map(str,a)))
