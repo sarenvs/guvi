@@ -4,8 +4,8 @@ def subset(d,b):
         if i in b:
             continue
         else:
-            return NO
-    return(YES)
+            return ("NO")
+    return("YES")
 
 a,c=map(int,input().split())
 b=list(map(int,input().split(None,a)[:a]))
