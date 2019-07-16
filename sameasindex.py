@@ -4,4 +4,8 @@ a=[]
 for i in range(len(b)):
     if b[i]==i:
         
-        print(b[i],end=" ")
+        a.append(b[i])
+if len(a)==0:
+    print(-1)
+else:
+    print(" ".join(map(str,a)))ss
