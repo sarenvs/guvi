@@ -1,9 +1,10 @@
-n=input()
-N=[]
-for i in n:
-    if i not in N:
-        N.append(i)
-        
-    else:
+a=input()
+B=''
+C=[]
+for i in a:
+    if i not in C:
+        B=B+i
+        C.append(i)
+    elif i in C:
         break
-print(len(N))
+print(len(C))
