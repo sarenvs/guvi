@@ -1,6 +1,6 @@
 a=list(input())
 b=[]
-for i in a:
-    if i not in b:
-        b.append(i)
+for i in range(len(a)-1):
+    if (a[i] not in b) and(a[i]!=a[i+1]):
+        b.append(a[i])
 print(len(b))
