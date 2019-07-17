@@ -10,4 +10,4 @@ for i in a:
        b=b+"".join(v)
        b=b+" "      
     
-print(b)
+print(b[:len(b)-1])
