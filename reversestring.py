@@ -1,13 +1,4 @@
-a=input()
-a=a.split(" ")
-
-
-b=""
+a=map(str,input().split())
 for i in a:
-    if i!="":
-       v=list(i)
-       v=v[::-1]
-       b=b+"".join(v)
-       b=b+" "      
-    
-print(b[:len(b)-1])
+  a=i[::-1]
+  print(a,end=" ")
