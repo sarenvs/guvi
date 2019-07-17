@@ -1,2 +1,2 @@
-print(h=int(input()))
+print(int(input()))
 
