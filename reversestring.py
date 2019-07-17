@@ -1,6 +1,6 @@
 a=input()
 a=a.split(" ")
-print(a)
+
 b=""
 for i in a:
     if i!="":
